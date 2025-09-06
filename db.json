@@ -1,0 +1,99 @@
+{
+  "recipients": [
+    {
+      "id": "r1",
+      "firstName": "Jordyn",
+      "lastInitial": "P",
+      "email": "jordyn.p@example.mil",
+      "address": "APO AE 09354",
+      "dietary": "Classic"
+    },
+    {
+      "id": "r2",
+      "firstName": "Alex",
+      "lastInitial": "K",
+      "email": "alex.k@example.mil",
+      "address": "FPO AP 96667",
+      "dietary": "Nut-Free"
+    },
+    {
+      "id": "9c4b",
+      "firstName": "Test",
+      "lastInitial": "X",
+      "email": "test@example.com",
+      "address": "APO AE 00000",
+      "dietary": "Classic"
+    },
+    {
+      "id": "6257",
+      "firstName": "Test",
+      "lastInitial": "T",
+      "email": "test@test.com",
+      "address": "APO AE 00000",
+      "dietary": "Classic"
+    },
+    {
+      "id": "f448",
+      "firstName": "Joe",
+      "lastInitial": "H",
+      "email": "joe@yahoo.com",
+      "address": "APO AE 09344",
+      "dietary": "Classic"
+    }
+  ],
+  "sponsorships": [
+    {
+      "id": "da92",
+      "name": "suppoerter",
+      "email": "supporter@example.com",
+      "state": "California",
+      "flavor": "Classic"
+    },
+    {
+      "id": "47d8",
+      "name": "test1",
+      "email": "test1@test1.com",
+      "state": "PA",
+      "flavor": "Classic"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "8159",
+      "recipient": {
+        "id": "r1",
+        "firstName": "Jordyn",
+        "lastInitial": "P",
+        "email": "jordyn.p@example.mil",
+        "address": "APO AE 09354",
+        "dietary": "Classic"
+      },
+      "sponsorship": {
+        "id": "da92",
+        "name": "suppoerter",
+        "email": "supporter@example.com",
+        "state": "California",
+        "flavor": "Classic"
+      }
+    },
+    {
+      "id": "1758",
+      "recipient": {
+        "id": "r2",
+        "firstName": "Alex",
+        "lastInitial": "K",
+        "email": "alex.k@example.mil",
+        "address": "FPO AP 96667",
+        "dietary": "Nut-Free"
+      },
+      "sponsorship": {
+        "id": "47d8",
+        "name": "test1",
+        "email": "test1@test1.com",
+        "state": "PA",
+        "flavor": "Classic"
+      }
+    }
+  ],
+  "shipments": []
+}
